@@ -3,7 +3,7 @@ import React from 'react';
 import {
   StyleSheet,
   Text,
-  TouchableOpacity,
+  TouchableHighlight,
   View,
   Image,
   SafeAreaView,
@@ -19,7 +19,7 @@ export default function App() {
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
       </Text>
-      <TouchableOpacity onPress={() => console.log('Image tapped!')}>
+      <TouchableHighlight onPress={() => console.log('Image tapped!')}>
         <Image
           blurRadius={2}
           source={{
@@ -28,7 +28,7 @@ export default function App() {
             height: 300,
           }}
         />
-      </TouchableOpacity>
+      </TouchableHighlight>
 
       <StatusBar style="auto" />
     </SafeAreaView>
