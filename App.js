@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 
 export default function App() {
   const handlePress = () => console.log('Text Pressed!');
@@ -12,6 +12,7 @@ export default function App() {
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
       </Text>
+      <Image source={require('./assets/icon.png')} />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
