@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text>
+      <Text numberOfLines={2}>
         Hello, World! I'm going to go ahead and write a really, really long
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
