@@ -7,6 +7,7 @@ import {
   View,
   Image,
   SafeAreaView,
+  Button,
 } from 'react-native';
 
 export default function App() {
@@ -14,22 +15,11 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text onPress={handlePress}>
-        Hello, World! I'm going to go ahead and write a really, really long
-        piece of text to test the default text wrapping functions of the Text
-        wrapper in React Native.
-      </Text>
-      <TouchableNativeFeedback onPress={() => console.log('Image tapped!')}>
-        <View
-          style={{
-            width: 200,
-            height: 70,
-            backgroundColor: 'dodgerblue',
-          }}
-        />
-      </TouchableNativeFeedback>
-
-      <StatusBar style="auto" />
+      <Button
+        color="orange"
+        title="Click me"
+        onPress={() => console.log('Button tapped!')}
+      />
     </SafeAreaView>
   );
 }
