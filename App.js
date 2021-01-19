@@ -3,11 +3,11 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 export default function App() {
-  console.log('App executed');
+  const handlePress = () => console.log('Text Pressed!');
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text onPress={() => console.log('Text clicked')}>
+      <Text onPress={handlePress}>
         Hello, World! I'm going to go ahead and write a really, really long
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
