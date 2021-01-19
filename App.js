@@ -7,7 +7,11 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello, World!</Text>
+      <Text>
+        Hello, World! I'm going to go ahead and write a really, really long
+        piece of text to test the default text wrapping functions of the Text
+        wrapper in React Native.
+      </Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
