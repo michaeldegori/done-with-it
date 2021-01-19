@@ -12,7 +12,13 @@ export default function App() {
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
       </Text>
-      <Image source={require('./assets/icon.png')} />
+      <Image
+        source={{
+          uri: 'https://picsum.photos/200/300',
+          width: 200,
+          height: 300,
+        }}
+      />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
