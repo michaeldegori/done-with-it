@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text numberOfLines={2}>
+      <Text onPress={() => console.log('Text clicked')}>
         Hello, World! I'm going to go ahead and write a really, really long
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'dodgerblue',
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
