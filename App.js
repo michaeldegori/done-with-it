@@ -13,6 +13,7 @@ export default function App() {
         wrapper in React Native.
       </Text>
       <Image
+        blurRadius={2}
         source={{
           uri: 'https://picsum.photos/200/300',
           width: 200,
