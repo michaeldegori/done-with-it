@@ -1,6 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TouchableWithoutFeedback,
+  View,
+  Image,
+  SafeAreaView,
+} from 'react-native';
 
 export default function App() {
   const handlePress = () => console.log('Text Pressed!');
@@ -12,14 +19,17 @@ export default function App() {
         piece of text to test the default text wrapping functions of the Text
         wrapper in React Native.
       </Text>
-      <Image
-        blurRadius={2}
-        source={{
-          uri: 'https://picsum.photos/200/300',
-          width: 200,
-          height: 300,
-        }}
-      />
+      <TouchableWithoutFeedback onPress={() => console.log('Image tapped!')}>
+        <Image
+          blurRadius={2}
+          source={{
+            uri: 'https://picsum.photos/200/300',
+            width: 200,
+            height: 300,
+          }}
+        />
+      </TouchableWithoutFeedback>
+
       <StatusBar style="auto" />
     </SafeAreaView>
   );
