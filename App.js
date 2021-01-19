@@ -7,6 +7,7 @@ import {
   View,
   Image,
   SafeAreaView,
+  Alert,
   Button,
 } from 'react-native';
 
@@ -18,7 +19,12 @@ export default function App() {
       <Button
         color="orange"
         title="Click me"
-        onPress={() => alert('Button tapped!')}
+        onPress={() =>
+          Alert.alert('My Alert', 'Button tapped!', [
+            { text: 'Yes', onPress: () => console.log('Yesss') },
+            { text: 'No', onPress: () => console.log('Noooo') },
+          ])
+        }
       />
     </SafeAreaView>
   );
