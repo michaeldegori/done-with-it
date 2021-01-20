@@ -13,6 +13,7 @@ import {
   Platform,
   StatusBar,
 } from 'react-native';
+import { useDimensions } from '@react-native-community/hooks';
 
 export default function App() {
   console.log(Dimensions.get('screen'));
