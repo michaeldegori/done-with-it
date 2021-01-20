@@ -22,8 +22,8 @@ export default function App() {
       <View
         style={{
           backgroundColor: 'dodgerblue',
-          width: '50%',
-          height: 70,
+          width: '100%',
+          height: '30%',
         }}
       ></View>
     </SafeAreaView>
@@ -31,8 +31,6 @@ export default function App() {
 }
 
 const containerStyle = { backgroundColor: 'orange' };
-
-console.log(StatusBar);
 
 const styles = StyleSheet.create({
   container: {
