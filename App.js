@@ -1,6 +1,7 @@
 // import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {
+  Dimensions,
   StyleSheet,
   Text,
   TouchableNativeFeedback,
@@ -14,12 +15,14 @@ import {
 } from 'react-native';
 
 export default function App() {
+  console.log(Dimensions.get('screen'));
+
   return (
     <SafeAreaView style={styles.container}>
       <View
         style={{
           backgroundColor: 'dodgerblue',
-          width: 150,
+          width: '50%',
           height: 70,
         }}
       ></View>
