@@ -19,7 +19,7 @@ import {
 } from '@react-native-community/hooks';
 
 export default function App() {
-  console.log(useDimensions());
+  const orientation = useDeviceOrientation();
 
   return (
     <SafeAreaView style={styles.container}>
