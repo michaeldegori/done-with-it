@@ -14,12 +14,15 @@ import {
 } from 'react-native';
 
 export default function App() {
-  const handlePress = () => console.log('Text Pressed!');
-
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello, this is text. Thanks.</Text>
-      <Button title="Click me" onPress={() => console.log('Button pressed!')} />
+      <View
+        style={{
+          backgroundColor: 'dodgerblue',
+          width: 150,
+          height: 70,
+        }}
+      ></View>
     </SafeAreaView>
   );
 }
