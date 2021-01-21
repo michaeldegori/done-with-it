@@ -14,6 +14,7 @@ export default function App() {
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
+        alignContent: 'center',
         flexWrap: 'wrap',
       }}
     >
