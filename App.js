@@ -12,6 +12,7 @@ export default function App() {
         backgroundColor: '#fff',
         flex: 1,
         flexDirection: 'row',
+        justifyContent: 'center',
       }}
     >
       <View
