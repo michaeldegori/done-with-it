@@ -20,14 +20,14 @@ export default function App() {
         style={{
           backgroundColor: 'dodgerblue',
           width: 100,
-          height: 100,
+          height: 300,
         }}
       />
       <View
         style={{
           backgroundColor: 'gold',
           width: 100,
-          height: 100,
+          height: 200,
         }}
       />
       <View
