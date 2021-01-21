@@ -21,7 +21,6 @@ export default function App() {
           backgroundColor: 'dodgerblue',
           width: 100,
           height: 100,
-          top: 20,
         }}
       />
       <View
