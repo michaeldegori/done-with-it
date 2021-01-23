@@ -4,6 +4,7 @@ import { Image, StyleSheet, View } from 'react-native';
 const ViewImageScreen = () => {
   return (
     <View style={styles.container}>
+      <View style={styles.closeIcon}></View>
       <Image
         resizeMode="contain"
         style={styles.image}
@@ -15,7 +16,7 @@ const ViewImageScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'black',
+    backgroundColor: '#000',
     flex: 1,
   },
   image: {
