@@ -8,5 +8,10 @@ import {
 } from '@react-native-community/hooks';
 
 export default function App() {
-  return <WelcomeScreen />;
+  return (
+    <>
+      <WelcomeScreen />
+      <ViewImageScreen />
+    </>
+  );
 }
