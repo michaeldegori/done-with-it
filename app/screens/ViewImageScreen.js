@@ -1,9 +1,15 @@
 import React from 'react';
-import { Image, StyleSheet } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 
 const ViewImageScreen = () => {
   return (
-    <Image style={styles.image} source={require('../assets/chair.jpg')}></Image>
+    <View>
+      <Image
+        resizeMode="contain"
+        style={styles.image}
+        source={require('../assets/chair.jpg')}
+      />
+    </View>
   );
 };
 
