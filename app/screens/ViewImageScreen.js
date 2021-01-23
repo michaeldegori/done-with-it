@@ -19,6 +19,9 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     backgroundColor: '#fc5c65',
+    position: 'absolute',
+    top: 40,
+    left: 30,
   },
   container: {
     backgroundColor: '#000',
