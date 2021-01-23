@@ -1,7 +1,8 @@
 import React from 'react';
+import { Image } from 'react-native';
 
 const ViewImageScreen = () => {
-  return;
+  return <Image source={require('../assets/chair.jpg')}></Image>;
 };
 
 export default ViewImageScreen;
