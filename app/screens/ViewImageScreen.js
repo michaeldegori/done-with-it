@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ViewImageScreen = () => {
-  return <div></div>;
+  return;
 };
 
 export default ViewImageScreen;
